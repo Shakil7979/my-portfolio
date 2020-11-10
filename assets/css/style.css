@@ -162,6 +162,7 @@ a {
   width: 100%;
   background: transparent;
   z-index: 99;
+  overflow-x: hidden;
  }
  .nav-icon i {
   border: 0.1rem solid  #fff;
@@ -350,6 +351,7 @@ a {
 
 .about-area {
   background: #2b2e33;
+  overflow-x: hidden;
 }
 .about-img{
   position: relative;
@@ -410,6 +412,7 @@ a {
 .skill-area{
   background: url('../images/skill/bg.jpg') no-repeat fixed center center / cover;
   position: relative;
+  overflow-x: hidden;
 }
 .skill-area:after{ 
   content: "";
@@ -459,6 +462,7 @@ a {
 
 .service-icon {
   text-align: center;
+  overflow-x: hidden;
 }
 .service-icon i{
   color: #AE812A;
@@ -508,6 +512,7 @@ a {
 .counter-area{
   background: url('../images/counter/bg.jpg') no-repeat fixed center center / cover;
   position: relative;
+  overflow-x: hidden;
 } 
 .counter-area:after{ 
   content: "";
@@ -541,6 +546,10 @@ a {
   /*********8.PORTFOLIO CSS*********/
  /********************************/
 
+
+.portfolio-area{
+  overflow-x: hidden;
+}
 .portfolio{
   -webkit-column-count: 3;
      -moz-column-count: 3;
@@ -626,6 +635,7 @@ a {
 .testimonials-area{
   background: url('../images/test/bg.jpg') no-repeat fixed center center / cover;
   position: relative;
+  overflow-x: hidden;
 }
 .testimonials-area:after{ 
   content: "";
@@ -670,7 +680,9 @@ a {
   /************10.TEAM CSS**********/
  /********************************/
 
-
+.team-area{
+  overflow-x: hidden;
+}
 .team-content {
   text-align: center;
 }
@@ -804,6 +816,7 @@ a {
 .contact-area{
   background: url('../images/contact/bg.jpg') no-repeat fixed center center / cover;
   position: relative;
+  overflow-x: hidden;
 }
 .contact-area:after{ 
   content: "";
@@ -868,6 +881,10 @@ a {
   /**********12.FOOTER CSS*********/
  /********************************/
 
+
+.footer-area  {
+  overflow-x: hidden;
+}
 .footer {
   text-align: center;
 }
