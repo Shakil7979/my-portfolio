@@ -166,7 +166,7 @@ a {
  }
  .toggle_class{
   background: #000; 
-  z-index: 9999;
+  z-index: 9999; 
  }
  .nav-icon i {
   border: 0.1rem solid  #fff;
