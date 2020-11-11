@@ -158,6 +158,9 @@
 
 		return false;
 	})
+	$('.nav-icon').click(function(){
+      $('.header-area').toggleClass('toggle_class');
+   });
 
 	// menu section slide 
 	$('.menu ul li a').click(function(){
