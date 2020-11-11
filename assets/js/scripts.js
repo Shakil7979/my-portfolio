@@ -90,6 +90,7 @@
 		  height: '5px',
 		 width: '80%'
 		});
+
 	$('.skill-prg7').LineProgressbar({
 		  percentage: 60,
 		  fillBackgroundColor: '#AE812A',
@@ -98,6 +99,7 @@
 		  height: '5px',
 		  width: '80%'
 		});
+
 	$('.skill-prg8').LineProgressbar({
 	  percentage: 85,
 	 fillBackgroundColor: '#AE812A',
@@ -124,9 +126,9 @@
 	AOS.init();
 
 
-	// testimonials carousel
+	// team carousel
 	$(".team").owlCarousel({
-	  	items:5,
+	  	// items:3,
 	  	loop:true, 
 	  	nav:true,
 	  	dots:false, 
@@ -137,12 +139,12 @@
 	            items:1,
 	            nav:true
 	        },
-	        600:{
-	            items:3,
-	            nav:false
+	        576:{
+	            items:1,
+	            nav:true
 	        },
-	        1000:{
-	            items:5,
+	        991:{
+	            items:3,
 	            nav:true, 
 	        }
 	    }
