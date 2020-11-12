@@ -4,8 +4,7 @@
 	.menu ul {
 		display: -webkit-box !important;
 		display: -ms-flexbox !important;
-		display: flex !important;
-		background: red;
+		display: flex !important; 
 	}
 }
 @media all and (max-width: 991px){

@@ -158,9 +158,8 @@
 
 	$('.bars2').click(function(){
 		$('.header-area').toggleClass('toggle_class',500);  
-	});  
-
-
+	});   
+	
 	$('.times').hide();
 	$('.bars').click(function(){
 
