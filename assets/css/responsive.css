@@ -5,6 +5,7 @@
 		display: -webkit-box !important;
 		display: -ms-flexbox !important;
 		display: flex !important;
+		background: red;
 	}
 }
 @media all and (max-width: 991px){
@@ -15,7 +16,7 @@
 		        flex-direction: column;
 		margin-top: 2rem; 
 		display: none;
-	}
+	} 
 	.menu ul li{
 		margin-bottom: 1rem;
 	}
@@ -30,7 +31,7 @@
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
 	}
-	 .nav-icon i { 
+	 .menu-bars { 
 	  display: block;
 	}
 	.about-text p {
@@ -40,9 +41,9 @@
 	.testimonials-item p {
 		width: 69%; 
 	}
-	.banner-area { 
+	/*.banner-area { 
 		height: 488px;
-	}
+	}*/
 	.banner h3 {
 		font-size: 2.5rem;
 	}
@@ -54,13 +55,7 @@
 
 @media all and (max-width: 767px){
 	.banner-area {
-		height: 360px;
-	}
-	.banner h3 {
-		font-size: 1.6rem;
-	}
-	.banner h1 {
-		font-size: 3rem;
+		height: 60rem;
 	}
 	.banner .btn-1 { 
 		margin-top: 1rem !important;
@@ -125,8 +120,11 @@
 
 @media all and (max-width: 567px){
 	.banner-area {
-		height: 251px;
+		height: 50rem;
 	}
+	.banner h3 {
+		font-size: 1.6rem;
+	} 
 	.about-img::after { 
 		top: 2rem;
 		right: -2rem;

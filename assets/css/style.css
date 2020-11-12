@@ -167,21 +167,29 @@ a {
  .toggle_class{
   background: #000; 
   z-index: 9999; 
- }
- .nav-icon i {
-  border: 0.1rem solid  #fff;
+ } 
+.menu-bars {
+  position: relative; 
+  display: none;
+}
+
+.times, .bars {
   color: #fff;
   padding: 0.4rem 0.5rem;
   border-radius: 0.5rem;
-  display: none;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  font-size: 3rem;
+  position: absolute;
+  top: -7px;
+  right: 0;  
 }
- .nav-icon:hover i{
-  border: 0.1rem solid #AE812A;
-  color:#AE812A; 
+ .times:hover,
+ .bars:hover{ 
+  color:#AE812A;  
  }
+
 .logo a {
   font-size: 3rem;
   font-weight: 700;
