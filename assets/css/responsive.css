@@ -120,6 +120,7 @@
 @media all and (max-width: 567px){
 	.banner-area {
 		height: 50rem;
+		background: url('../images/about/1.jpg') no-repeat scroll center center / cover;  
 	}
 	.banner h3 {
 		font-size: 1.6rem;
@@ -194,5 +195,5 @@
 	.team-img {
 	  width: 15rem;
 	  height: 15rem;
-	}
+	} 
 }
