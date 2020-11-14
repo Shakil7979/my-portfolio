@@ -20,6 +20,10 @@ body {
   background:#fff ;
   color:#AE812A;
 }
+:root{
+  --bg-color: red;
+  --color: #ddd;
+}
 html {
     font-size: 62.5%;
     line-height: 25px;
@@ -351,6 +355,8 @@ a {
   -webkit-box-shadow: 0 0 0 0px #AE812A;
           box-shadow: 0 0 0 0px #AE812A;
   background: #2B2E33;
+  -webkit-animation: fa-spin 2s linear infinite;
+  animation: fa-spin 2s linear infinite; 
 }
 
 
@@ -925,3 +931,12 @@ a {
   color: #fff;
   background:#805709;
 }
+
+
+   /*********************************/ 
+  /**********13.COLOR CSS*********/
+ /********************************/
+
+.color-changer-area {
+  top: 30%; 
+} 
