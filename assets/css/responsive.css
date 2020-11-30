@@ -121,6 +121,9 @@
 		height: 50rem;
 		background: url('../images/about/1.jpg') no-repeat scroll center center / cover;  
 	}
+	.banner-social ul{ 
+		display: none;
+	}
 	.banner h3 {
 		font-size: 1.6rem;
 	} 
