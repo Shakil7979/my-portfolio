@@ -163,8 +163,7 @@ a {
   left: 0;
   width: 100%;
   background: transparent;
-  z-index: 99;
-  overflow-x: hidden;
+  z-index: 99; 
  }
  .toggle_class{
   background: #000; 
@@ -238,7 +237,7 @@ a {
   overflow: hidden;
   display: inline-block;
 }   
-.menu .nav-pills .nav-link.active:after,
+.menu .nav-pills .active:after,
 .menu ul li a:after{
   content: "";
   position: absolute;
@@ -253,19 +252,13 @@ a {
   transition: 0.3s;
   visibility: hidden;
   opacity: 0;
-} 
-.menu .nav-pills .nav-link.active{
-  position: relative;
-}   
+}  
 
-.menu .nav-pills .nav-link.active:focus:after,
+.menu .nav-pills .active:after,
 .menu ul li a:hover:after{
   left: 0;
   visibility: visible;
-  opacity: 1;
-} 
-.menu ul li a:hover{
-  color: #AE812A;
+  opacity: 1; 
 }
 
 .FixedHeader{
@@ -274,8 +267,7 @@ a {
   z-index: 99999;
   padding: 1.5rem 0;
 }
-.menu .nav-pills .nav-link.active{
-  color: #AE812A;
+.menu .nav-pills .nav-link.active{ 
   background-color: transparent;
 }
 
@@ -355,8 +347,8 @@ a {
   -webkit-box-shadow: 0 0 0 0px #AE812A;
           box-shadow: 0 0 0 0px #AE812A;
   background: #2B2E33;
-  -webkit-animation: fa-spin 2s linear infinite;
-  animation: fa-spin 2s linear infinite; 
+  /*-webkit-animation: fa-spin 2s linear infinite;
+  animation: fa-spin 2s linear infinite;*/ 
 }
 
 
@@ -366,8 +358,7 @@ a {
 
 
 .about-area {
-  background: #2b2e33;
-  overflow-x: hidden;
+  background: #2b2e33; 
 }
 .about-img{
   position: relative;
@@ -567,14 +558,14 @@ a {
   overflow-x: hidden;
 }
 .portfolio{
-  -webkit-column-count: 3;
-     -moz-column-count: 3;
-          column-count: 3;
+  -webkit-column-count: 4;
+     -moz-column-count: 4;
+          column-count: 4;
   overflow: hidden;
 }
-.portfolio-item { 
+.portfolio-item {
   width: 100%;
-  height: auto;
+  height: 225px;
   margin-bottom: 1.5rem;
   position: relative;
   overflow: hidden;
