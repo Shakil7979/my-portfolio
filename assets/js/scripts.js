@@ -117,6 +117,11 @@
 	AOS.init();
 
 
+
+	//=============== preloder
+	$('.someBlock').preloader();
+
+
 	// ========team carousel
 	$(".team").owlCarousel({
 	  	// items:3,
