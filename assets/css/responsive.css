@@ -1,4 +1,10 @@
  
+
+@media all and (max-width: 1200px){
+	.snippet-2{
+		display: none;
+	}
+}
 @media all and (min-width: 991px){
 	.menu ul {
 		display: -webkit-box !important;
@@ -114,12 +120,18 @@
 		line-height: 5.5rem; 
 		font-size: 3rem;
 	}
+	
+	.dot-animation { 
+		top: 75%;
+		left: 0; 
+		right: 0;
+	}
 }
 
 @media all and (max-width: 567px){
 	.banner-area {
 		height: 50rem;
-		background: url('../images/about/1.jpg') no-repeat scroll center center / cover;  
+		background: url('../images/about/3.jpg') no-repeat scroll center center / cover;  
 	}
 	.banner-social ul{ 
 		display: none;

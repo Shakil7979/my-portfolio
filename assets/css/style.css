@@ -351,6 +351,83 @@ a {
   animation: fa-spin 2s linear infinite;*/ 
 }
 
+ /**
+ * ==============================================
+ * Dot Typing
+ * ==============================================
+ */
+ 
+
+.examples .snippet:before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+  content: attr(data-title);
+  font-size: .75rem;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: white;
+  background-color: rgb(255, 25, 100);
+  border-radius: .25rem 0 .25rem 0;
+}
+
+.stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0.1rem 0;
+  margin: 0 -5%;
+} 
+
+.dot-animation {
+  display: flex;
+  justify-content: space-between;
+  width: 4%;
+  margin: 2% auto;
+  position: absolute;
+  top: 46%;
+  left: 16%;
+  z-index: 999;
+}
+
+.dot-typing {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #AE812A;
+  color: #AE812A;
+  box-shadow: 9984px 0 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  animation: dotTyping 2.5s infinite linear;
+}
+
+@keyframes dotTyping {
+  0% {
+    box-shadow: 9984px 0 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  }
+  16.667% {
+    box-shadow: 9984px -10px 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  }
+  33.333% {
+    box-shadow: 9984px 0 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  }
+  50% {
+    box-shadow: 9984px 0 0 0 #AE812A, 9999px -10px 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  }
+  66.667% {
+    box-shadow: 9984px 0 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  }
+  83.333% {
+    box-shadow: 9984px 0 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px -10px 0 0 #AE812A;
+  }
+  100% {
+    box-shadow: 9984px 0 0 0 #AE812A, 9999px 0 0 0 #AE812A, 10014px 0 0 0 #AE812A;
+  }
+}
+
 
    /*********************************/
   /***********4.ABOUT CSS**********/
