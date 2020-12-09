@@ -237,3 +237,10 @@
 			 	$('.header-area').removeClass('FixedHeader')
 			 }
 	 	})
+
+	 // ======preloader
+	 $(window).on("load",function (){
+			// Preloader
+			$('#preloader').fadeOut('slow',function(){$(this).remove();});
+			
+		});
