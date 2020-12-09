@@ -405,12 +405,12 @@ a {
 
 .dot-animation2 {
   display: flex;
-  justify-content: space-between;
-  width: 4%;
-  margin: 2% auto;
+  justify-content: space-between; 
+  margin: 0 auto;
   position: absolute;
   top: 50% !important;
-  left: 50% !important;
+  right: 0 !important;
+  left: 0 !important;
   z-index: 999;
 }
 
