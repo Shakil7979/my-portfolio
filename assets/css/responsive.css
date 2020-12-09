@@ -126,6 +126,11 @@
 		left: 0; 
 		right: 0;
 	}
+	.dot-animation2 { 
+	  top: 45% !important;
+	  left: 0% !important; 
+	  right: 0% !important; 
+	}
 }
 
 @media all and (max-width: 567px){
