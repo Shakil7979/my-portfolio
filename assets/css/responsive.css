@@ -143,7 +143,7 @@
 	.banner h3 {
 		font-size: 1.6rem;
 	} 
-	.about-img::after { 
+	.about-img:after { 
 		top: 2rem;
 		right: -2rem;
 	}
