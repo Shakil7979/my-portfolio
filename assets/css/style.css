@@ -311,7 +311,7 @@ a {
 .banner-area{
   background: url('../images/banner/shakil2.jpg') no-repeat scroll center center / cover;
   position: relative; 
-  height: 650px;
+  height: 650px; 
 }
 .banner-area:after{
   content: "";
@@ -524,6 +524,7 @@ a {
 
 .about-area {
   background: #2b2e33; 
+  overflow-x: hidden;
 }
 .about-img{
   position: relative;
@@ -638,7 +639,9 @@ a {
   /***********6.SERVICE CSS*********/
  /********************************/
 
-
+.service-area{
+  overflow-x: hidden;
+}
 .service-icon {
   text-align: center;
   overflow-x: hidden;
